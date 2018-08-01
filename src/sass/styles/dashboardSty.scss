@@ -1,0 +1,29 @@
+.dashboard-container {
+    width: 100%;
+    height: 100%;
+    //padding: 8px;
+}
+
+.dh-languages-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dh-language {
+    min-width: 160px;
+    height: 150px;
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(15, 15, 15, 0.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    box-shadow: 0px 0px 7px 1px rgba(15, 15, 15, 0.2);
+    margin-left: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+}
