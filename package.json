@@ -17,9 +17,12 @@
         "@types/lodash": "^4.14.115",
         "@types/react": "^16.4.7",
         "@types/react-dom": "^16.0.6",
+        "@types/react-map-gl": "^3.3.0",
+        "@types/socket.io-client": "^1.4.32",
         "awesome-typescript-loader": "^5.2.0",
         "css-loader": "^1.0.0",
         "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^1.1.11",
         "sass-loader": "^7.0.3",
         "source-map-loader": "^0.2.3",
         "style-loader": "^0.21.0",
@@ -29,8 +32,14 @@
     },
     "dependencies": {
         "axios": "^0.18.0",
+        "botframework-webchat": "^0.14.1",
+        "fs": "0.0.1-security",
         "lodash": "^4.17.10",
         "react": "^16.4.1",
-        "react-dom": "^16.4.1"
+        "react-dom": "^16.4.1",
+        "react-map-gl": "^3.3.2",
+        "redux": "^4.0.0",
+        "rxjs-compat": "^6.2.2",
+        "socket.io-client": "^2.1.1"
     }
 }

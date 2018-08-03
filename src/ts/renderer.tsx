@@ -4,8 +4,8 @@ import * as ReactDOM from "react-dom";
 import Store, {AppState} from "./store";
 
 //Components
-import Dashboard from "./components/dashboard/";
+import Layout from "./components/layout";
 
 //Render
 ReactDOM.render(
-  <Store><Dashboard/></Store>, document.getElementById("root"));
+  <Store><Layout/></Store>, document.getElementById("root"));

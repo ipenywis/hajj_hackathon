@@ -1,0 +1,10 @@
+enum SCREENS_LIST {
+  MAIN,
+  CONTROL,
+  LOCATION,
+  HAJJ_GROUP_LOCATION,
+  PLACES,
+  CHAT_BOT
+};
+
+export default SCREENS_LIST;
